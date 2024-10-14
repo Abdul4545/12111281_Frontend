@@ -117,7 +117,7 @@ const Dashboard = () => {
           yaxis: {
             labels: {
               formatter: function (val) {
-                return val.toFixed(0); // Change if you want custom formatting
+                return val.toFixed(0); 
               },
             },
             title: {
@@ -132,7 +132,7 @@ const Dashboard = () => {
             shared: false,
             y: {
               formatter: function (val) {
-                return val.toFixed(0); // Change to format the tooltip
+                return val.toFixed(0); 
               },
             },
           },
